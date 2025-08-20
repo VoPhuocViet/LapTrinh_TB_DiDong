@@ -1,12 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Person = void 0;
 var Person = /** @class */ (function () {
     function Person(name, age) {
         this.name = name;
         this.age = age;
     }
     Person.prototype.hienThi = function () {
-        console.log("name: ".concat(this.name, ", age: ").concat(this.age));
+        console.log("Name: ".concat(this.name, ", Age: ").concat(this.age));
     };
     return Person;
 }());
-var person1 = new Person("Alice", 25);
-person1.hienThi();
+exports.Person = Person;
