@@ -1,0 +1,19 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+class Car {
+    brand;
+    model;
+    year;
+    constructor(brand, model, year) {
+        this.brand = brand;
+        this.model = model;
+        this.year = year;
+    }
+    displayInfo() {
+        console.log(`Brand: ${this.brand}, Model: ${this.model}, Year: ${this.year}`);
+    }
+}
+// const person = new Person("Alice", 30);
+// person.displayInfo(); // Output:
+const car = new Car("Toyota", "Camry", 2020);
+car.displayInfo(); // Output: Brand: Toyota, Model: Camry, Year:
