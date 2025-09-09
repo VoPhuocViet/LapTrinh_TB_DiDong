@@ -1,5 +1,5 @@
 "use strict";
-// asyncHello.ts
+// src/asyncHello.ts
 Object.defineProperty(exports, "__esModule", { value: true });
 function helloAsync() {
     return new Promise((resolve) => {

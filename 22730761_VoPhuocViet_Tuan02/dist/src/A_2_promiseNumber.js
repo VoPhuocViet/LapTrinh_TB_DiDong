@@ -1,12 +1,12 @@
 "use strict";
-// asyncHello.ts
+// src/A_2_promiseNumber.ts
 Object.defineProperty(exports, "__esModule", { value: true });
-function helloAsync() {
+function promiseNumber() {
     return new Promise((resolve) => {
         setTimeout(() => {
-            resolve("Hello Async");
-        }, 2000);
+            resolve(10);
+        }, 1000);
     });
 }
 // Example usage:
-helloAsync().then(console.log);
+promiseNumber().then(console.log);
