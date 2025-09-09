@@ -25,3 +25,6 @@ async function fetchUserWithTimeout(id: number): Promise<User> {
 
 // Để chạy thử:
 // fetchUserWithTimeout(1).then(console.log).catch(console.error);
+
+// Gọi hàm để khi chạy file sẽ in ra kết quả
+fetchUserWithTimeout(1).then(console.log).catch(console.error);

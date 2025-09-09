@@ -13,3 +13,5 @@ async function tripleAfter1Sec(n) {
 }
 // Để chạy thử:
 // sequentialTriples();
+// Gọi hàm để khi chạy file sẽ in ra kết quả
+sequentialTriples();

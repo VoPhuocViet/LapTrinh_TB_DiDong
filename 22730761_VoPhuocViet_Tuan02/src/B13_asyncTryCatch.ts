@@ -9,3 +9,6 @@ async function errorExample() {
 
 // Để chạy thử:
 // errorExample();
+
+// Gọi hàm để khi chạy file sẽ in ra kết quả
+errorExample();

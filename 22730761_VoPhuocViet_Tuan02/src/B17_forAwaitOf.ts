@@ -13,3 +13,6 @@ async function tripleAfter1Sec(n: number): Promise<number> {
 
 // Để chạy thử:
 // forAwaitOfExample();
+
+// Gọi hàm để khi chạy file sẽ in ra kết quả
+forAwaitOfExample();

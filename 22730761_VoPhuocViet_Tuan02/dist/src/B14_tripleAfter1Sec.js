@@ -7,3 +7,5 @@ async function tripleAfter1Sec(n) {
 }
 // Để chạy thử:
 // tripleAfter1Sec(5).then(console.log);
+// Gọi hàm để khi chạy file sẽ in ra kết quả
+tripleAfter1Sec(5).then(console.log);

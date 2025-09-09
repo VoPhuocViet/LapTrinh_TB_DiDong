@@ -15,3 +15,6 @@ async function fetchUsers(ids: number[]): Promise<User[]> {
 
 // Để chạy thử:
 // fetchUsers([1,2,3]).then(console.log);
+
+// Gọi hàm để khi chạy file sẽ in ra kết quả
+fetchUsers([1, 2, 3]).then(console.log);

@@ -14,3 +14,5 @@ async function logSimulateTask() {
 }
 // Để chạy thử:
 // logSimulateTask();
+// Gọi hàm để khi chạy file sẽ in ra kết quả
+logSimulateTask();
